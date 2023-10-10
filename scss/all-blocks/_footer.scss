@@ -1,0 +1,42 @@
+.footer {
+    background-color: #2C343E;
+
+    .container {
+        display: flex;
+    }
+
+    &__link__picture {
+        padding: 45px 85px;
+    }
+
+    &__link__box {
+        padding-top: 50px;
+        padding-right: 369px;
+    }
+
+    &__link {
+        color: #83888F;
+        font-family: 'Barlow';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #FEFCF7;
+        }
+    }
+
+    &__link +&__link {
+        padding-left: 33px;
+    }
+
+    &__pic__boxx {
+        padding-top: 40px;
+    }
+}
+
+.path__hover:hover {
+    fill: #FDD6BA;
+}

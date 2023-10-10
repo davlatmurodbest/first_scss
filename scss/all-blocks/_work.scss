@@ -1,0 +1,89 @@
+.work {
+    padding-left: 140px;
+    margin-bottom: 200px;
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 80px;
+        color: #83888F;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(3, 370px);
+        margin-top: -18px;
+        margin-bottom: 67px;
+    }
+
+    &__circle {
+        width: 31px;
+        height: 31px;
+        border: 2px solid #0E8784;
+        background-color: #FEFCF7;
+        border-radius: 50%;
+    }
+
+    &__line {
+        width: 760px;
+        height: 1px;
+        background-color: #FDD6BA;
+        display: block;
+    }
+
+    &__list {
+        margin-left: -40px;
+        display: flex;
+    }
+
+    &__item + &__item{
+        margin-left: 95px;
+    }
+
+    &__item__heading {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 42px;
+        width: 255px;
+        color: #333D4B;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    &__item__text {
+        margin: 0;
+        padding: 0;
+        width: 270px;
+        color: #333D4B;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 79px;
+    }
+
+    &__next {
+        margin-left: 0;
+    }
+}
+
+.item__heading {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 38px;
+    color: #FDD6BA;
+    font-family: 'Fraunces';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
